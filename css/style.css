@@ -8,19 +8,16 @@ body #header h1 {
   text-align: center;
   margin-bottom: 0;
 }
-body #header .phone .pos-f-t {
-  width: 100%;
-}
-body #header .phone .pos-f-t #navphone {
+body #header .phone .pos-f-t .navbar {
   background-color: #F56B2A !important;
   flex-direction: row !important;
 }
-body #header .phone .pos-f-t #navphone button {
+body #header .phone .pos-f-t .navbar button {
   background-color: white;
   color: #F56B2A;
   border: none;
 }
-body #header .phone .pos-f-t #navphone button:hover {
+body #header .phone .pos-f-t .navbar button:hover {
   color: #4183D7;
   background-color: #F2F2F2;
 }
@@ -62,6 +59,40 @@ body #header .phone #exampleModalLong .modal-dialog a:first-child {
 body #header .phone #exampleModalLong .modal-dialog a:hover {
   color: orange;
   background-color: white;
+}
+body #header .desktop {
+  padding: 0;
+}
+body #header .desktop nav {
+  background-color: #F56B2A;
+  padding: 0;
+}
+body #header .desktop nav .h1 {
+  font-weight: bold;
+  font-size: 29px;
+}
+body #header .desktop nav a {
+  color: white;
+}
+body #header .desktop nav .collapse a {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px 15px;
+}
+body #header .desktop nav .collapse a:hover {
+  text-decoration: underline;
+}
+body #header .desktop nav .login {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 15px 5px;
+  margin-right: 10px;
+  transition: 0.3s;
+  text-decoration: none !important;
+}
+body #header .desktop nav .login:hover {
+  background-color: white;
+  color: #F56B2A;
 }
 
 /*# sourceMappingURL=style.css.map */
