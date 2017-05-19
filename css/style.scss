@@ -4,6 +4,7 @@ body,html{
 
 $orange:#F56B2A;
 $blue:#4183D7;
+$blue2:#3D6ABE;
 $grey:#F2F2F2;
 // BEGIN
 
@@ -14,6 +15,7 @@ body{
       font-weight: bold;
       text-align: center;
       margin-bottom: 0;
+
     }
     .phone{
       .pos-f-t{
@@ -82,7 +84,7 @@ body{
         padding: 0;
         .h1{
           font-weight: bold;
-          font-size: 29px;
+          font-size: 34px;
         }
         a{
           color: white;
@@ -108,6 +110,54 @@ body{
           &:hover{
             background-color: white;
             color: $orange;
+          }
+        }
+      }
+    }
+  }
+  #main{
+    margin-top: 20px;
+
+    .topmain{
+      .action{
+        p{
+          color: black;
+          font-weight: bold;
+          font-size: 14px;
+          span{
+            color: $orange;
+          }
+        }
+        button{
+          width: 100%;
+          margin-top: 15px;
+          font-size: 14px;
+        }
+      }
+      .carte{
+        a{
+          .land{
+            fill: $blue2;
+            stroke:black;
+            stroke-width:1;
+            &:hover{
+              fill:$orange;
+            }
+          }
+
+        }
+      }
+      .departement{
+        text-align: right;
+        ul{
+          li{
+            list-style: none;
+            line-height: 20px;
+            a{
+              font-weight: bold;
+              color: $blue2;
+              font-size: 14px;
+            }
           }
         }
       }

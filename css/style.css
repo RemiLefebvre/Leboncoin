@@ -69,7 +69,7 @@ body #header .desktop nav {
 }
 body #header .desktop nav .h1 {
   font-weight: bold;
-  font-size: 29px;
+  font-size: 34px;
 }
 body #header .desktop nav a {
   color: white;
@@ -93,6 +93,42 @@ body #header .desktop nav .login {
 body #header .desktop nav .login:hover {
   background-color: white;
   color: #F56B2A;
+}
+body #main {
+  margin-top: 20px;
+}
+body #main .topmain .action p {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+body #main .topmain .action p span {
+  color: #F56B2A;
+}
+body #main .topmain .action button {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 14px;
+}
+body #main .topmain .carte a .land {
+  fill: #3D6ABE;
+  stroke: black;
+  stroke-width: 1;
+}
+body #main .topmain .carte a .land:hover {
+  fill: #F56B2A;
+}
+body #main .topmain .departement {
+  text-align: right;
+}
+body #main .topmain .departement ul li {
+  list-style: none;
+  line-height: 20px;
+}
+body #main .topmain .departement ul li a {
+  font-weight: bold;
+  color: #3D6ABE;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
