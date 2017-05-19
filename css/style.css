@@ -133,5 +133,35 @@ body #main .topmain .departement ul li a {
   color: #3D6ABE;
   font-size: 14px;
 }
+body #main .paragraphe {
+  margin-top: 20px;
+}
+body #main .paragraphe p {
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+}
+body #main .paragraphe p a {
+  color: #4183D7;
+}
+body #footer .top .toptop {
+  background-color: #F2F2F2;
+}
+body #footer .top .toptop li {
+  list-style: none;
+  text-decoration: none;
+  line-height: 18px;
+}
+body #footer .top .toptop li a {
+  font-size: 14px;
+  color: #369;
+}
+body #footer .top .toptop .title {
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+body #footer .bottom {
+  background-color: #474747;
+}
 
 /*# sourceMappingURL=style.css.map */

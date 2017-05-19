@@ -163,5 +163,39 @@ body{
         }
       }
     }
+    .paragraphe{
+      margin-top: 20px;
+      p{
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+        a{
+          color: $blue;
+        }
+      }
+    }
+  }
+  #footer{
+    .top{
+      .toptop{
+        background-color: #F2F2F2;
+        li{
+          list-style:none;
+          text-decoration: none;
+          line-height: 18px;
+          a{
+            font-size: 14px;
+            color: #369;
+          }
+        }
+        .title{
+          font-weight: bold;
+          margin: 20px 0 10px 0;
+        }
+      }
+    }
+    .bottom{
+      background-color: #474747;
+    }
   }
 }
