@@ -1,0 +1,80 @@
+body,html{
+  width: 100%;
+}
+
+$orange:#F56B2A;
+$blue:#4183D7;
+$grey:#F2F2F2;
+// BEGIN
+
+body{
+  #header{
+    h1{
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 0;
+    }
+    .phone{
+      .pos-f-t{
+        width: 100%;
+        #navphone{
+          background-color: $orange !important;
+          flex-direction: row !important;
+          button{
+            background-color: white;
+            color: $orange;
+            border: none;
+            &:hover{
+              color: $blue;
+              background-color: $grey;
+            }
+          }
+        }
+      }
+
+      #exampleModalLong{//MODAL
+        .modal-dialog{
+          float: left;
+          width: 80%;
+          margin-top: 0;
+          .modal-header{
+            background-color: $orange;
+            h5{
+              text-align: center;
+              color: white;
+              font-weight: bold;
+              margin-left: 30%;
+            }
+            button{
+              border-radius: 50%;
+            }
+          }
+          .modal-body{
+            padding: 0;
+          }
+          a{
+
+            text-decoration: none;
+            font-weight: bold;
+            color: $blue;
+            padding-left: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid $grey;
+            border-bottom: 1px solid #d3d3d3;
+            background-color: $grey;
+            &:first-child{
+              background-color: white;
+              color: orange;
+            }
+          }
+          a:hover{
+            color: orange;
+            background-color: white;
+          }
+        }
+      }
+    }
+  }
+}

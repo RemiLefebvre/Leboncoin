@@ -1,3 +1,67 @@
+body, html {
+  width: 100%;
+}
 
+body #header h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+body #header .phone .pos-f-t {
+  width: 100%;
+}
+body #header .phone .pos-f-t #navphone {
+  background-color: #F56B2A !important;
+  flex-direction: row !important;
+}
+body #header .phone .pos-f-t #navphone button {
+  background-color: white;
+  color: #F56B2A;
+  border: none;
+}
+body #header .phone .pos-f-t #navphone button:hover {
+  color: #4183D7;
+  background-color: #F2F2F2;
+}
+body #header .phone #exampleModalLong .modal-dialog {
+  float: left;
+  width: 80%;
+  margin-top: 0;
+}
+body #header .phone #exampleModalLong .modal-dialog .modal-header {
+  background-color: #F56B2A;
+}
+body #header .phone #exampleModalLong .modal-dialog .modal-header h5 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-left: 30%;
+}
+body #header .phone #exampleModalLong .modal-dialog .modal-header button {
+  border-radius: 50%;
+}
+body #header .phone #exampleModalLong .modal-dialog .modal-body {
+  padding: 0;
+}
+body #header .phone #exampleModalLong .modal-dialog a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4183D7;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #F2F2F2;
+  border-bottom: 1px solid #d3d3d3;
+  background-color: #F2F2F2;
+}
+body #header .phone #exampleModalLong .modal-dialog a:first-child {
+  background-color: white;
+  color: orange;
+}
+body #header .phone #exampleModalLong .modal-dialog a:hover {
+  color: orange;
+  background-color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
