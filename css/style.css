@@ -146,6 +146,7 @@ body #main .paragraphe p a {
 }
 body #footer {
   padding: 0;
+  color: white;
 }
 body #footer .top .toptop {
   background-color: #F2F2F2;
@@ -170,9 +171,6 @@ body #footer .bottom hr {
   border: 0.2px solid #606060;
   margin: 0;
 }
-body #footer .bottom .list {
-  color: white;
-}
 body #footer .bottom .list .elements {
   margin-top: 10px;
 }
@@ -191,7 +189,6 @@ body #footer .bottom .partenaire p {
   margin: 5px 0px;
   text-align: center;
   font-size: 13px;
-  color: white;
 }
 body #footer .bottom .partenaire p a {
   color: white;
@@ -201,6 +198,24 @@ body #footer .bottom .title {
   margin: 20px 0 10px 0;
   font-size: 13px;
   margin-bottom: 0;
+}
+body #footer .bottom .social {
+  display: flex;
+  margin: 10px 5px;
+}
+body #footer .bottom .social .lsocial {
+  display: flex;
+  align-items: flex-end;
+}
+body #footer .bottom .social .rsocial {
+  align-items: flex-end;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+}
+body #footer .bottom .social .rsocial i {
+  font-size: 30px;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

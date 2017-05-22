@@ -176,6 +176,8 @@ body{
   }
   #footer{
     padding: 0;
+    color: white;
+
     .top{
       .toptop{
         background-color: #F2F2F2;
@@ -201,7 +203,6 @@ body{
         margin: 0;
       }
       .list{
-        color: white;
         .elements{
           margin-top: 10px;
         }
@@ -222,7 +223,6 @@ body{
           margin: 5px 0px;
           text-align: center;
           font-size: 13px;
-          color: white;
           a{
             color: white;
           }
@@ -233,6 +233,24 @@ body{
         margin: 20px 0 10px 0;
         font-size: 13px;
         margin-bottom: 0;
+      }
+      .social{
+        display: flex;
+        margin: 10px 5px;
+        .lsocial{
+          display: flex;
+          align-items: flex-end;
+        }
+        .rsocial{
+          align-items: flex-end;
+          margin-left: auto;
+          display: flex;
+          flex-direction: row;
+          i{
+            font-size: 30px;
+            padding: 0;
+          }
+        }
       }
     }
   }
