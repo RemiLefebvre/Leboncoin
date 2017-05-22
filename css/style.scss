@@ -117,7 +117,6 @@ body{
   }
   #main{
     margin-top: 20px;
-
     .topmain{
       .action{
         margin-bottom: 30px;
@@ -176,6 +175,7 @@ body{
     }
   }
   #footer{
+    padding: 0;
     .top{
       .toptop{
         background-color: #F2F2F2;
@@ -196,6 +196,44 @@ body{
     }
     .bottom{
       background-color: #474747;
+      hr{
+        border: 0.2px solid #606060;
+        margin: 0;
+      }
+      .list{
+        color: white;
+        .elements{
+          margin-top: 10px;
+        }
+        .question{
+          height: 110px;
+        }
+        li{
+          list-style: none;
+          line-height: 30px;
+          a{
+            font-size: 12px;
+            color: white;
+          }
+        }
+      }
+      .partenaire{
+        p{
+          margin: 5px 0px;
+          text-align: center;
+          font-size: 13px;
+          color: white;
+          a{
+            color: white;
+          }
+        }
+      }
+      .title{
+        font-weight: bold;
+        margin: 20px 0 10px 0;
+        font-size: 13px;
+        margin-bottom: 0;
+      }
     }
   }
 }

@@ -144,6 +144,9 @@ body #main .paragraphe p {
 body #main .paragraphe p a {
   color: #4183D7;
 }
+body #footer {
+  padding: 0;
+}
 body #footer .top .toptop {
   background-color: #F2F2F2;
 }
@@ -162,6 +165,42 @@ body #footer .top .toptop .title {
 }
 body #footer .bottom {
   background-color: #474747;
+}
+body #footer .bottom hr {
+  border: 0.2px solid #606060;
+  margin: 0;
+}
+body #footer .bottom .list {
+  color: white;
+}
+body #footer .bottom .list .elements {
+  margin-top: 10px;
+}
+body #footer .bottom .list .question {
+  height: 110px;
+}
+body #footer .bottom .list li {
+  list-style: none;
+  line-height: 30px;
+}
+body #footer .bottom .list li a {
+  font-size: 12px;
+  color: white;
+}
+body #footer .bottom .partenaire p {
+  margin: 5px 0px;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+body #footer .bottom .partenaire p a {
+  color: white;
+}
+body #footer .bottom .title {
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  font-size: 13px;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
