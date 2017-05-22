@@ -144,6 +144,10 @@ body #main .paragraphe p {
 body #main .paragraphe p a {
   color: #4183D7;
 }
+body #main .dropdown-menu {
+  height: 300px;
+  overflow: scroll;
+}
 body #footer {
   padding: 0;
   color: white;
@@ -202,6 +206,7 @@ body #footer .bottom .title {
 body #footer .bottom .social {
   display: flex;
   margin: 10px 5px;
+  font-size: 14px;
 }
 body #footer .bottom .social .lsocial {
   display: flex;

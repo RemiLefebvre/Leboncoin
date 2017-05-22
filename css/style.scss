@@ -173,6 +173,10 @@ body{
         }
       }
     }
+    .dropdown-menu{
+      height: 300px;
+      overflow: scroll;
+    }
   }
   #footer{
     padding: 0;
@@ -237,6 +241,7 @@ body{
       .social{
         display: flex;
         margin: 10px 5px;
+        font-size: 14px;
         .lsocial{
           display: flex;
           align-items: flex-end;
